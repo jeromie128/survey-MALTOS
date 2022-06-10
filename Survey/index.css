@@ -1,0 +1,176 @@
+*{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.mainBG{
+    background-image: linear-gradient(rgba(2, 10, 41, 0.808),rgba(4, 9, 30, 0.322)), url(assets/backgroungImage/278648860_558321262243036_8980551891878758380_n.jpg);
+    background-attachment: fixed;
+    background-size:contain;
+    background-position: center;
+    width: 100vw;
+    height: 185vh;
+    color: white;
+}
+.toptext{
+    position: absolute;
+    width: 100%;
+    height: 5vw;
+    font-size: 1vw;
+    top: 1vw;
+}
+.toptext h1{
+    padding-top: 2vw;
+    margin-bottom: .70vw;
+    font-weight: 400;
+}
+.toptext p{
+    font-style: italic;
+    font-size: 1vw;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.281);
+}
+.fillup{
+    background-color: rgba(127, 219, 255, 0.247);
+    width: 40vw;
+    height: auto;
+    left: 28vw;
+    top: 7.50vw;
+    position: absolute;
+    padding-top: 2vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    border-radius: .70vw;
+    margin-bottom: 10vw;
+}
+::placeholder{
+    padding-top: .30vw;
+    font-size: 1vw;
+    position: fixed;
+}
+input:focus::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.603);
+}
+
+label{
+    text-align: left;
+    display: block;
+    margin-bottom: .30vw;
+    padding-left: .15vw;
+    color: rgba(255, 255, 255, 0.808);
+}
+input[type="text"], input[type="email"], input[type="number"], select{
+    color: rgba(255, 255, 255, 0.616);
+    font-size: 1vw;
+    margin-bottom: 1vw;
+    width: 100%;
+    height: 2.50vw;
+    box-sizing: border-box;
+    border-radius: .25vw;
+    border: .11vw solid rgba(163, 183, 238, 0.274);
+    background-color: rgba(240, 248, 255, 0);
+    text-align: left;
+    outline: none;
+}
+input[type="text"]:hover{
+    background-color: rgba(240, 248, 255, 0.075);
+    transition: .5s;
+}
+input[type="email"]:hover{
+    background-color: rgba(240, 248, 255, 0.075);
+    transition: .5s;
+}
+input[type="number"]:hover{
+    background-color: rgba(240, 248, 255, 0.075);
+    transition: .5s;
+}
+select:hover{
+    background-color: rgba(240, 248, 255, 0.075);
+    transition: .5s;
+}
+option{
+    color: black;
+    text-align: left;
+}
+.role{
+    margin-bottom: .30vw;
+    margin-top: 1.50vw;
+}
+.freeCodeCamp{
+    margin-top: .70vw;
+    margin-bottom: .70vw;
+}
+.features{
+    margin-top: 1.50vw;
+    margin-bottom: .25vw;
+}
+.recommend{
+    margin-top: .70vw;
+    margin-bottom: .50vw;
+}
+input[type="checkbox"], input[type="radio"]{
+    width: 1vw;
+    height: 1vw;
+    margin-right: .25vw;
+}
+.checkboxlabel{
+    display: flex;
+    align-items: center;
+}
+.radiolabel{
+    display: flex;
+    align-items: center;
+}
+.btn{
+    width: 100%;
+    margin-bottom: 1vw;
+    height: 2.50vw;
+    color: rgb(255, 255, 255);
+    border: .11vw solid gray;
+    border-radius: .25vw;
+    background-color: rgba(115, 220, 252, 0.192);
+    font-size: 1vw;
+}
+.btn:hover{
+    background-color: rgba(240, 248, 255, 0.603);
+    transition: .5s;
+    font-size: 1.1vw;
+}
+.commentword{
+    margin-top: 1.50vw;
+}
+.commentarea{
+    font-size: 1vw;
+    border-radius: .25vw;
+    box-sizing: border-box;
+    width: 100%;
+    height: 14vh;
+    text-align: left;
+    background-color: rgba(240, 248, 255, 0);
+    margin-bottom: 1vw;
+    color: rgba(255, 255, 255, 0.795);
+    outline: none;
+}
+.commentarea::placeholder{
+    color: rgba(255, 255, 255, 0.582);
+}
+.commentarea:hover{
+    background-color: rgba(240, 248, 255, 0.075);
+    transition: .5s;
+}
+.finaltext{
+    width: 100%;
+    position: sticky;
+    margin-top: 155vh;
+}
+.finaltext h4{
+    font-weight: 400;
+    color: rgba(240, 248, 255, 0.548);
+}
+.finaltext p{
+    margin-top: .70vw;
+    font-size: 1vw;
+}
